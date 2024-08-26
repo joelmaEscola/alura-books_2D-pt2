@@ -70,6 +70,32 @@
     )
     .container__titulo-negrito{
         font-weight: 700;}
-             
+     
+    }
+.opcoes {
+    display: flex;
 }
 
+.opcoes__item {
+    text-transform: uppercase;
+}
+
+.opcoes__link {
+    text-decoration: none;
+}
+
+.container__imagem-transparente {
+    display: none;
+}
+
+.cabecalho__menu-hamburguer {
+    display: none;
+}
+.opcoes__botao:checked~.lista-menu{
+    display: block;
+    width: auto;
+}
+
+.opcoes__botoes{
+    display: nome;
+}
