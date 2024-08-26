@@ -58,6 +58,18 @@
     display: none;
 }
 
-@media screen {
-    
+@media screen and(min-width: 1024px){
+    .container_titulo,
+      .container-titulo-negrito{
+          font-family: var(--fonte-secundario);
+          font-size: 30px;
+      }
+    .container__titulo(
+    font-weight: 400px;
+    display: block;
+    )
+    .container__titulo-negrito{
+        font-weight: 700;}
+             
 }
+
