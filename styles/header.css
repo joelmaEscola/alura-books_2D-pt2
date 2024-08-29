@@ -96,6 +96,11 @@
     width: auto;
 }
 
-.opcoes__botoes{
-    display: nome;
+.opcoes__botao:checked~.lista-menu{
+    display: block;
+    width: auto;
+
+}
+.opcoes__botao {
+    display: none;
 }
