@@ -79,11 +79,13 @@
 }
 
 .opcoes__item {
+    padding: 0 1em;
     text-transform: uppercase;
 }
 
 .opcoes__link {
     text-decoration: none;
+    color: var(--preto);
 }
 
 .container__imagem-transparente {
